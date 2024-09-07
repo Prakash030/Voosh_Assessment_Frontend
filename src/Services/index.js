@@ -3,9 +3,9 @@ import { apiEndPoints } from "../Utils/apiEndPoints";
 
 
 // const apiUrl = process.env.REACT_APP_API_URL;
-const apiUrl = 'https://voosh-assessment-backend.onrender.com/api/v1';
+// const apiUrl = 'https://voosh-assessment-backend.onrender.com/api/v1';
 
-// const apiUrl = process.env.REACT_APP_API_URL_LIVE;
+const apiUrl = process.env.REACT_APP_API_URL_LIVE;
 
 export const register = async (name, email, password) => {
     try {

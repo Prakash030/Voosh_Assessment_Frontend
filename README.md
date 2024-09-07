@@ -1,33 +1,47 @@
-# Getting Started with Todo App
+# Voosh Todo App
 
-## Live URL : https://todo-frontend-two-beryl.vercel.app/
+A React application that combines user authentication with robust task management capabilities. This app includes features for user login, registration, Google login, and comprehensive task management with drag-and-drop functionality.
 
-This application supports login, register, and Google Authentication.
+## Backend Repository: https://github.com/Prakash030/Voosh_Assessment_Backend
 
-In this application, we can do the CRUD operation for each task created.
+## Live URL: https://voosh-assessment-frontend.vercel.app/login
 
-We can also drag and drop the tasks into different sections. Also, the search bar is present along with the Recent first Filter.
+## Features
 
-All authentications have been taken care and the application is fully authenticated.
+### Authentication
+- **Login**: Users can log in with their email and password.
+- **Register**: New users can create an account through a registration form.
+- **Google Login**: Users can quickly log in using their Google account.
 
-## Available Scripts
+### Todo Management
+- **Add Task**: Users can add new tasks with titles and descriptions.
+- **Edit Task**: Users can modify existing tasks.
+- **Delete Task**: Users can remove tasks from the list.
+- **Drag and Drop**: Users can organize tasks by dragging and dropping them between columns representing different statuses: Pending, Ongoing, and Completed.
 
-In the project directory, you can run:
+## Installation and Setup
 
-### `npm start`
+### Prerequisites
+- **Node.js**: Ensure you have Node.js installed. Download it from [nodejs.org](https://nodejs.org/).
+- **npm** or **yarn**: These package managers are used for installing dependencies. `npm` comes with Node.js, but `yarn` can be used as an alternative.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Clone the Repository
+Clone the repository from GitHub:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/Prakash030/Voosh_Assessment_frontend.git
+```
+### Change into the project directory:
 
-### `npm run build`
+```bash
+cd Voosh_Assessment_frontend
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-Backend repo: ["https://github.com/Prakash030/todo-backend"]
+### Install Dependencies:
+```bash
+npm i
+```
+### Run the Application:
+```bash
+npm start
+```
